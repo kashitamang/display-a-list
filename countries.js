@@ -5,6 +5,5 @@ export const countries = [
         languages: 123, 
         image: './assets/nepal.jpg',
     },
+    
 ];
-
-console.log(countries);
