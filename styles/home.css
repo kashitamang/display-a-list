@@ -1,1 +1,24 @@
 /* add home page styles here */
+
+#countries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.country {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: bisque;
+}
+
+img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10%;
+}
