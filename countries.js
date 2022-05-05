@@ -6,3 +6,5 @@ export const countries = [
         image: './assets/nepal.jpg',
     },
 ];
+
+console.log(countries);

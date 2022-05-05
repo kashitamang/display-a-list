@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-
+import { countries } from './countries.js';
 // let state
 
 // set event listeners 
