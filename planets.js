@@ -17,4 +17,6 @@ export const planets = [
         distance: '1st',
         materials: ['iron', 'hydrogen', 'helium']
     }
+    
 ];
+

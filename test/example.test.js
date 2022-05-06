@@ -23,7 +23,7 @@ test('time to test a function', (expect) => {
     expect.equal(actual, expected);
 });
 
-test('test country render function', (expect) => {
+test('test renderCounty() function', (expect) => {
     
     const expected = `<div class="country"><h1>nepal</h1><img src="./assets/nepal.jpg"><p>nepal has a population of 28,095,714 and 123 languages</p></div>`;
     
@@ -32,7 +32,7 @@ test('test country render function', (expect) => {
     expect.equal(actual.outerHTML, expected);
 });
 
-test('test planet render function', (expect) => {
+test('test renderPlanet() function', (expect) => {
 
     const expected = `<div class="planet"><h1>mars</h1><img src="./assets/mars.jpg"><p>mars is the 4th planet from the sun</p><h2>materials:</h2><ul><li>nickel</li><li>iron</li><li>silicon</li></ul></div>`;
 
