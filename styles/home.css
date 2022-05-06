@@ -1,1 +1,83 @@
 /* add home page styles here */
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Courier+Prime&family=Rubik+Puddles&display=swap');
+
+#countries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    border-radius: 10px;
+    background-image: url('/assets/earth.jpg');
+}
+
+.country {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(177, 168, 151);
+    color: rgb(67, 54, 38);
+    opacity: 80%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+#planets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    border-radius: 10px;
+    background-image: url('/assets/nebula.jpg');
+}
+
+.planet {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(151, 177, 174);
+    opacity: 80%;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(38, 61, 67);
+}
+
+#signs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    border-radius: 10px;
+    background-image: url('/assets/background.png');
+}
+
+.sign {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(177, 151, 177);
+    color: rgb(67, 38, 58);
+    opacity: 80%;
+}
+
+.saying {
+    font-style: italic;
+}
+
+.sign img {
+    border: none;
+    width: 80%;
+}
