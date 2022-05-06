@@ -65,7 +65,7 @@ export function renderSign(sign) {
     const ul = document.createElement('ul');
     for (let trait of sign.traits) {
         const li = document.createElement('li');
-        li.tentContent = trait;
+        li.textContent = trait;
         ul.append(li);
     }
     

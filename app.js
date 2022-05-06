@@ -23,7 +23,7 @@ for (let planet of planets) {
     planetListEl.append(planetDiv);
 }
 
-for (sign of signs) {
+for (let sign of signs) {
     const signDiv = renderSign(sign);
     signListEl.append(signDiv);
 }
