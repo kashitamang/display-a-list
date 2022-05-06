@@ -40,3 +40,4 @@ test('test renderPlanet() function', (expect) => {
 
     expect.equal(actual.outerHTML, expected);
 });
+

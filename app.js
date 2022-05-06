@@ -5,9 +5,13 @@ import { renderCountry } from './utils.js';
 import { planets } from './planets.js';
 import { renderPlanet } from './utils.js';
 
+import { signs } from './signs.js';
+import { renderSign } from './utils.js';
+
 // let state
 const countryListEl = document.getElementById('countries');
 const planetListEl = document.getElementById('planets');
+const signListEl = document.getElementById('signs');
 
 for (let country of countries) {
     const countryDiv = renderCountry(country);
@@ -17,6 +21,11 @@ for (let country of countries) {
 for (let planet of planets) {
     const planetDiv = renderPlanet(planet);
     planetListEl.append(planetDiv);
+}
+
+for (sign of signs) {
+    const signDiv = renderSign(sign);
+    signListEl.append(signDiv);
 }
 // set event listeners 
   // get user input
